@@ -40,7 +40,6 @@ def play(board)
   until turn == 10
     turn(board)
     turn +=1
-    break
   end
 end
 
